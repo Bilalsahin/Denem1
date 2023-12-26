@@ -1,0 +1,29 @@
+const trabzonspor ={
+    name:"Trabzonspor",
+    players:[function(hedef){
+        this.skor = this.skor + this.goal;
+        console.log(this.players[5],this.name,"goooollll",target.skor,this.skor);
+    },"Uğurcan ÇAKIR","Eren ELMALI","Stefano DENSWİLL","Batista MENDY","Stryger LARSEN","Steven GERARD","Anastasios BAKASETAS","Abdülkadir ÖMÜR","Cristiano RONALDO","Kylian MBAPPE","Erling HAALAND"],
+    stadium:"Papara Park stadyumu",
+    from:"Trabzon",
+    skor:0,
+    goal:1,
+}
+
+const barcelona ={
+    name:"Barcelona",
+    players:["PENA","BALDE","ARAUJO","CRİSTENSEN","CANCELO","GÜNDOĞDU","LOPEZ","ROBERTO","RAPHİNHA","FELİX","LEWANDOwSKİ"],
+    stadium:"Camp Nou",
+    from:"Spain",
+    skor:0,
+    goal:1,
+    gol:function(target,oyuncu){
+        this.skor = this.skor + this.goal;
+            console.log(this.players[4],this.name,"goooollll",target.skor,this.skor);
+            if(setTimeout(() => {
+                console.log(target.name,target.skor,this.skor,this.name," Maç sonucu");
+            }, 10000)){
+            }
+    }
+}
+barcelona.gol(trabzonspor); 

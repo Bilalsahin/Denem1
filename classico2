@@ -27,3 +27,8 @@ const barcelona ={
     }
 }
 barcelona.gol(trabzonspor); 
+
+abi players: içerisine function ekliyorum fakat çalıştıramıyorum.
+barcelona.gol olarak functiona oyuncu adı yazdırabiliyorum fakat. Ben aşağıda fonksiyonu çağırırken oyuncu belirlemek istiyorum. Örn: barcelona.gol(trabzonspor,this.players[4]); gibi 
+bana bir takımda örnek gösterir misin teamsden atman yeterli copy yapar anlamaya çalışırım ben
+
